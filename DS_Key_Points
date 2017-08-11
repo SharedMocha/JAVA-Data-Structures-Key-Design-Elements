@@ -1,0 +1,58 @@
+IMP DS Points-
+
+Strings -
+Use String buffer instead of appending to a string.
+
+
+
+
+
+Hash Table -
+It's a Key-Value pair -- Good for searching
+Ex - HT<KEY,ARRAYLIST<INT> --Sample HT with key and values as arraylist
+
+
+
+
+
+Linked List -
+Has different types -Single,Double,Circled
+
+Linked list users below key items
+Node - Denotes a single node in linkedlist it cointains (KEY,Pointr to next Node)
+Ex- 1,Point to Node2  --->   2, Pointer to Node3---->
+
+Head  (Denotes  Head node)
+Head.next (To iterate/traverse or goto next element)
+Head.value (Get Value of the element)
+
+
+
+
+
+Trees -
+Has elements on right and left
+
+BST - binary search tree-- Element on left are less than right
+
+Tree common elements:
+TreeNode =denotes a node
+TreeNode.left ==left node (used in traversal--its not like linked list node.next)
+TreeNode.right  == right node (used in traversal--its not like linked list node.next)
+
+Best Traversal technique is -
+Use recurssion by calling the same method - You can also use while loop if needed to decrement-
+Recurssion bring a issue--Time complexity is o(n) -but space complexity is high -SO how to reduce this is by maintianing  hash map to track keys which reduces the no of loops to run-
+Also for factorial use BIGINTEGER rather than long or int-
+Everytime you use recussion make sure to have a default condition to break the loop.
+Good use cases are -Factorial & Matrix
+
+
+Search-
+Use Binary search as when possible as time complexity is o(log n)
+
+
+Sort Algorithams-
+Merger Sort /Heap Sort
+
+Read/black trees
