@@ -1,10 +1,11 @@
+Below notes helps anyone to refresh or learn key componenets of any system design.It also helps in questiong anf answering the key componenets of technology(JAVA)
+
 # System_Design_Architecture
-System_Design_Architecture
-3 main methods for designing a system are(Problem Exploration,SOlution Exploration,Execution) -Find answers for below ques-
 
 
-Problem Exploration  -->
-Questions To Ask -
+3 main methods for designing a system are (Problem Exploration,Solution Exploration,Execution) 
+
+# Problem Exploration  --> Questions To Ask yourself/team -
 Type of data ?
 How often it comes & how many events (Ex -1M Events/sec)
 Operations on data as it comes(Count,Max,Mean,Median)
@@ -13,8 +14,8 @@ how about presenting/searching data ?
 What channels should this data be available ?
 Need API's ?
 Business logic ?
- ------------------>
-Solution Exploration  -->
+
+# Solution Exploration  --> Questions To Ask yourself/team -
 Load balancer needed ?
 How much ram memory/db size  we need (2,4,6,120 gb?) -- > what is the size of data (20 Kb?) ?How many   events/sec (100k) So- How many records should we store in memeory for quick access (100k) or 24 hrs of data ?
 
@@ -34,10 +35,12 @@ The amount of time that each bucket represents depends on much accuracy you want
 primary keys -secondary keys--search/sort criteria ?
 
 What are the components where we will have more risk ?system or human ?
------------------------>
-Execution -->
+
+# Execution --> Questions To Ask yourself/team -
 What APIs to build ? 
+
 Access modifiers
+
 write some code here..saying what array to use - and if we need pointers for fast retrival and storage..identify key variables and methods..
 
 CHECK TIME/SPACE Complexity if possible.
