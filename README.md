@@ -1,5 +1,5 @@
 Below notes helps anyone to refresh or learn key componenets for designing an application.
-It also helps in asking correct questions anf answers during the design process.
+It also helps in asking correct questions  during the design process.
 
 
 # System_Design_Architecture
