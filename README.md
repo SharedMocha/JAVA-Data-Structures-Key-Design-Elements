@@ -1,4 +1,6 @@
-Below notes helps anyone to refresh or learn key componenets of any system design.It also helps in questiong anf answering the key componenets of technology(JAVA)
+Below notes helps anyone to refresh or learn key componenets for designing an application.
+It also helps in asking correct questions anf answers during the design process.
+
 
 # System_Design_Architecture
 
